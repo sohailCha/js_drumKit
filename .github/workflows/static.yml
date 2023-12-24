@@ -22,3 +22,8 @@ jobs:
           path: '.'  # Adjust the path as needed
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
